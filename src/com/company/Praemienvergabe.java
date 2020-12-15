@@ -2,7 +2,7 @@ package com.company;
 
 import java.util.Scanner;
 
-public class Main {
+public class Praemienvergabe {
 
     public static void main(String[] args) {
         String name;
@@ -21,12 +21,12 @@ public class Main {
             if (company >= 25) {
                 System.out.println(name);
                 System.out.println(age + " Jahre alt");
-                System.out.println("Ist seit" + company + " Jahren in der Firma!");
+                System.out.println("Ist seit " + company + " Jahren in der Firma!");
                 System.out.println("bekommt 550 Euro");
             } else {
                 System.out.println(name);
                 System.out.println(age + " Jahre alt");
-                System.out.println("Ist seit" + company + " Jahren in der Firma!");
+                System.out.println("Ist seit " + company + " Jahren in der Firma!");
                 System.out.println("bekommt 500 Euro");
             }
 
